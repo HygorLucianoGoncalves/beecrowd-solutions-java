@@ -10,6 +10,7 @@ public class P1015 {
         y1 = teclado.nextDouble();
         x2 = teclado.nextDouble();
         y2 = teclado.nextDouble();
+
         double p1 = Math.pow((x2-x1),2);
         double p2 = Math.pow((y2-y1),2);
         double distancia = Math.sqrt(p1+p2);
