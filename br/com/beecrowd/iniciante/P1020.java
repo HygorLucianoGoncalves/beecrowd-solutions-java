@@ -13,8 +13,8 @@ public class P1020 {
         mes = valor/30;
         dia = valor%30;
 
-        System.out.println(ano);
-        System.out.println(mes);
-        System.out.println(dia);
+        System.out.println(ano+" ano(s)");
+        System.out.println(mes+" mes(es)");
+        System.out.println(dia+" dia(s)");
     }
 }
