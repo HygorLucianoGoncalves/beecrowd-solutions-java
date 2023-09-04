@@ -10,6 +10,7 @@ public class P1018 {
 
         valor = teclado.nextInt();
         int valorInicial = valor;
+        
         n100 = valor / 100;
         valor = valor % 100;
 
