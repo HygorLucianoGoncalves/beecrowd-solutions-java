@@ -1,4 +1,4 @@
-package br.com.beecrowd.iniciante;
+package br.com.beecrowd.estruturasebibliotecas;
 
 import java.util.Scanner;
 
