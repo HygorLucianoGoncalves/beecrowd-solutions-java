@@ -8,17 +8,18 @@ public class P1037 {
 
         double entrada = scanner.nextDouble();
 
-        if (entrada < 0 || entrada > 100){
+        if (entrada < 0 || entrada > 100) {
             System.out.println("Fora de intervalo");
-        } else if (entrada >= 0 && entrada <= 25.00) {
+        } else if (entrada <= 25) {
             System.out.println("Intervalo [0,25]");
-        } else if (entrada > 25.00 && entrada <= 50.00){
+        } else if (entrada <= 50) {
             System.out.println("Intervalo (25,50]");
-        } else if (entrada > 50.00 && entrada <= 75.00){
+        } else if (entrada <= 75) {
             System.out.println("Intervalo (50,75]");
-        } else{
+        } else {
             System.out.println("Intervalo (75,100]");
         }
+
 
         scanner.close();
     }
