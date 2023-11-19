@@ -32,6 +32,7 @@ public class P1045 {
             System.out.println("TRIANGULO ISOSCELES");
         }
 
+
         teclado.close();
 
     }
