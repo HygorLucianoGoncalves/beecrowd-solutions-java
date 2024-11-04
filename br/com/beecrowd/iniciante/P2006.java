@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class P2006 {
     public static void main(String[] args) {
+
+        // TEMPO 0.095s
         Scanner T = new Scanner(System.in);
 
         int typeForTea, a, b, c, d, e;
@@ -15,14 +17,12 @@ public class P2006 {
         d = T.nextInt();
         e = T.nextInt();
 
-
         Integer[] resposta = {a, b, c, d, e};
         for (Integer resp : resposta) {
             if (resp == typeForTea) {
                 result++;
             }
         }
-
         System.out.println(result);
     }
 }
