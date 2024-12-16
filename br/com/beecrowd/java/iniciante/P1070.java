@@ -8,16 +8,14 @@ public class P1070 {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
 
-        for (int i = 1; i <= 6; i++) {
-            if (x % 2 == 0) {
-                x++;
+        int cont = 0;
+        while (cont < 6) {
+            if (x % 2 == 1) {
                 System.out.println(x);
-            }else{
-                System.out.println(x);
+                cont++;
             }
             x++;
-
-
         }
+
     }
 }
