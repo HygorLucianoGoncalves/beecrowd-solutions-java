@@ -16,7 +16,7 @@ Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não es
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int valoresPares = 0,valoresImpares = 0,valoresPositivos = 0,valoresNegativos = 0;
+        int valoresPares = 0, valoresImpares = 0, valoresPositivos = 0, valoresNegativos = 0;
         int[] valores = new int[5];
 
         for (int i = 0; i < 5; i++) {
@@ -24,21 +24,19 @@ Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não es
 
             if (valores[i] > 0) {
                 valoresPositivos++;
-            }else if (valores[i] < 0) {
+            } else if (valores[i] < 0) {
                 valoresNegativos++;
             }
             if (valores[i] % 2 == 0) {
                 valoresPares++;
-            }else
+            } else
                 valoresImpares++;
         }
 
-        System.out.println(valoresPares + " valor(es) par(es)" );
+        System.out.println(valoresPares + " valor(es) par(es)");
         System.out.println(valoresImpares + " valor(es) impar(es)");
         System.out.println(valoresPositivos + " valor(es) positivo(s)");
         System.out.println(valoresNegativos + " valor(es) negativo(s)");
-
-
 
 
     }

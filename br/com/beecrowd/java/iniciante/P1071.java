@@ -8,7 +8,7 @@ public class P1071 {
         /*
           no if - pegamos os valor do menor para o maior.
           faz o FOR enquanto i < valor...
-          colocando o (+ 1) no i para pode calcular o valor fornecido.
+          colocando o (+ 1) no i para pode calcular o  valor fornecido.
          */
 
         Scanner sc = new Scanner(System.in);
