@@ -1,4 +1,4 @@
-package br.com.beecrowd.java.teste;
+package br.com.beecrowd.java.iniciante;
 
 /// Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 ///
