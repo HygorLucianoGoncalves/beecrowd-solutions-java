@@ -11,21 +11,17 @@ public class P1099 {
             int x = scanner.nextInt();
             int y = scanner.nextInt();
             int teste=0;
-            if (x < y){
-                for (int i=x+1; i <= y-1; i++) {
-                    if (i%2!=0) {
-                        teste += i;
-                    }
-                }
-            }else{
-                for (int i=y+1; i <= x-1; i++) {
-                    if (i%2!=0) {
-                        teste += i;
-                    }
-                }
+            if (x > y){
+               int temp = x;
+               x = y;
+               y = temp;
 
             }
-
+            for (int i=x+1; i <= y-1; i++) {
+                if (i%2!=0) {
+                    teste += i;
+                }
+            }
             System.out.println(teste);
         }
     }
