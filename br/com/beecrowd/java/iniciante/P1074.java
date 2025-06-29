@@ -13,7 +13,6 @@ public class P1074 {
             x[j] = sc.nextInt();
         }
         for (int i = 1; i <= n; i++) {
-
             if (x[i] > 0 && x[i] % 2 == 0) {
                 System.out.println("EVEN POSITIVE");
             } else if (x[i] < 0 && x[i] % 2 == 0) {
